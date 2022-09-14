@@ -1,0 +1,24 @@
+{
+  "id": "${json-unit.any-number}",
+  "name": "oranges",
+  "measures": {
+    "original": {
+      "amount": 1.0,
+      "unit": "bag"
+    },
+    "metric": {
+      "amount": 1.0,
+      "unit": "bag"
+    },
+    "us": {
+      "amount": 1.0,
+      "unit": "bag"
+    }
+  },
+  "usages": [],
+  "usageRecipeIds": [],
+  "pantryItem": false,
+  "aisle": "orange",
+  "cost": 0.22,
+  "ingredientId": 9200
+}
