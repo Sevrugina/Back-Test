@@ -108,6 +108,7 @@ public class ShoppingTest {
 
         @Order(4)
         @Test
+        @Disabled
         void testDeleteShoppingList() throws IOException {
             ShoppingList shoppingList = new ShoppingList();
             shoppingList.getProperties();

@@ -5,10 +5,7 @@ import com.geekbrains.api.ApiUserConnectResult;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import net.javacrumbs.jsonunit.JsonAssert;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.*;
 
 import static io.restassured.RestAssured.given;
 import static net.javacrumbs.jsonunit.core.Option.IGNORING_ARRAY_ORDER;
